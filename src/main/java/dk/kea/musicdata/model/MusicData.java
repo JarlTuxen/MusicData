@@ -1,12 +1,12 @@
 package dk.kea.musicdata.model;
 
-public class NewMusic {
+public class MusicData {
     private String artist;
     private String title;
     private int year;
     private String company;
 
-    public NewMusic(String artist, String title, int year, String company) {
+    public MusicData(String artist, String title, int year, String company) {
         this.artist = artist;
         this.title = title;
         this.year = year;
